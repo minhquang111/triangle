@@ -1,0 +1,53 @@
+.articles-containter {
+    text-align: left;
+
+    .box-articles {
+        margin-bottom: 20px;
+
+        .box-title {
+            font-size: 20px;
+            margin   : 5px 0px;
+
+            a {
+                text-decoration: 20px;
+                color          : black;
+            }
+
+            a:hover {
+                border-bottom: 1px solid black;
+            }
+        }
+
+        .box-time {
+            font-size: 12px;
+            margin   : 5px 0px;
+        }
+
+        .box-description {
+            font-size: 16px;
+            margin   : 5px 0px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin         : 0px;
+            padding        : 0px;
+            font-size      : 16px;
+            margin         : 5px 0px;
+
+            li {
+                display      : inline-block;
+                padding-right: 10px;
+
+                a {
+                    text-decoration: none;
+                    color          : black;
+                }
+
+                a:hover {
+                    border-bottom: 1px solid black;
+                }
+            }
+        }
+    }
+}
